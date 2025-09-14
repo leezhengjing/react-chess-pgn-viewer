@@ -2,15 +2,15 @@
   "name": "@nkzw/library-template",
   "version": "0.0.0",
   "description": "Library.",
-  "homepage": "https://github.com/nkzw-tech/library-template",
+  "homepage": "https://github.com/leezhengjing/react-chess-pgn-viewer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nkzw-tech/library-template"
+    "url": "https://github.com/leezhengjing/react-chess-pgn-viewer"
   },
   "license": "MIT",
   "author": {
-    "name": "Christoph Nakazawa",
-    "email": "christoph.pojer@gmail.com"
+    "name": "Lee Zheng Jing",
+    "email": "codingwithzeejae@gmail.com"
   },
   "type": "module",
   "main": "./lib/index.js",
@@ -41,5 +41,9 @@
     "tsdown": "^0.15.1",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "chess": "^1.5.0",
+    "react-chessboard": "^5.6.1"
   }
 }
